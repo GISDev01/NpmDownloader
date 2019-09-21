@@ -41,3 +41,7 @@ Downloading multiple packages using code:
   from npmdownloader import MultiPackageDownloader
 
   downloader = MultiPackageDownloader('packages_list.txt', 'out_dir', num_of_workers=4)
+  downloader.start()
+  downloader.wait()
+  print("Multi Download Complete.")
+  

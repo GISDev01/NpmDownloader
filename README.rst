@@ -33,8 +33,11 @@ Downloading a package using code:
   downloader.download('react', version='15.4.1')
 
 Downloading multiple packages using code:
+
 - Note: packages_list.txt should contain 1 package name per line.
+
 - The package name can contain a version number in the format: react@15.4.1
+
 .. code:: python
 
   from npmdownloader import MultiPackageDownloader
